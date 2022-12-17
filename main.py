@@ -1,12 +1,4 @@
 import random
-#when comp challenges human's exchange, exchange process restarts for human, and human's current influences are wrong
-
-#sometimes goes past first move also not sure if fixed but if u see this error and cant figure it out, just screenshot and send cause the code is kinda messy down there
-'''havent encountered this yet '''
-#not doing correct player, somewhere in challenge, cha_bool, block, move_stack.pop(), undo_action there is multiple undos? basically idea is that when challenge is successful should only pop the last action, turn number and player keep going
-
-#if challenge succeed opponent needs to lose influence and print what influence was lost
-
 
 class Player:
 
